@@ -4,7 +4,6 @@ const HomeLayout = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
 
     @media (max-width: 1023px) {
         padding-left: 16px;
@@ -12,6 +11,9 @@ const HomeLayout = styled.main`
     }
 `;
 
-const ContentsBox = styled.div``;
+const ContentsBox = styled.div`
+    padding-top: 140px;
+    padding-bottom: 140px;
+`;
 
 export { HomeLayout, ContentsBox };
