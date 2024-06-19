@@ -3,9 +3,10 @@ import styled from "styled-components";
 const HomeLayout = styled.main`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 100px;
-    max-width: 500px;
 `;
 
-export { HomeLayout };
+const ContentsBox = styled.div``;
+
+export { HomeLayout, ContentsBox };

@@ -10,7 +10,7 @@ const AboutSection: FC<AboutSectionProps> = ({}) => {
             <S.SectionTitleH2>{"About"}</S.SectionTitleH2>
             <S.DescriptionP>
                 {
-                    "GM, I'm Max. I enjoy building dynamic, creative products from start to finish. Focused on developing intuitive experiences that constantly grow and improve based on user metrics. Always shipping."
+                    "안녕하세요 프론트엔드 개발자 정병욱입니다.\n세상을 더 편리하게 해주고 좋은 사용성을 가진 서비스를 개발하고 싶습니다."
                 }
             </S.DescriptionP>
         </S.AboutSectionLayout>

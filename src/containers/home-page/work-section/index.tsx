@@ -14,11 +14,11 @@ const WorkSection: FC<WorkSectionProps> = ({}) => {
                     <S.ServiceA>{"Frontend Developer - Groo"}</S.ServiceA>
                     <S.ServiceDescriptionP>
                         {
-                            "GM, I'm Max. I enjoy building dynamic, creative products from start to finish. Focused on developing intuitive experiences that constantly grow and improve based on user metrics. Always shipping."
+                            "누구나 식물 생활을 쉽게, 더 즐겁게 식물 관리 서비스 그루우입니다. 합류 후 그루우 Web, App Frontend 개발 업무를 담당했습니다."
                         }
                     </S.ServiceDescriptionP>
                     <S.Technology>
-                        {"React • React • React • React • React"}
+                        {"Next.js • React Native • Redux"}
                     </S.Technology>
                 </S.ServiceDescriptionBox>
             </S.ServiceBox>
