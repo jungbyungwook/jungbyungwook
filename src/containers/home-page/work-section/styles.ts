@@ -13,6 +13,10 @@ const SectionTitleH2 = styled.h2`
 
 const ServiceBox = styled.div`
     display: flex;
+
+    @media (max-width: 1023px) {
+        flex-direction: column;
+    }
 `;
 
 const TimeP = styled.p`
@@ -32,6 +36,11 @@ const ServiceDescriptionBox = styled.div`
     flex-direction: column;
     margin-left: 30px;
     flex: 1;
+
+    @media (max-width: 1023px) {
+        margin-left: 2px;
+        margin-top: 10px;
+    }
 `;
 
 const ServiceDescriptionP = styled.p`
