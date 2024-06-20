@@ -9,6 +9,7 @@ const WorkSectionLayout = styled.div`
 const SectionTitleH2 = styled.h2`
     color: white;
     margin-bottom: 30px;
+    font-size: 22px;
 `;
 
 const ServiceBox = styled.div`

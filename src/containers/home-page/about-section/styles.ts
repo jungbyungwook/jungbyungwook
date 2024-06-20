@@ -8,6 +8,7 @@ const AboutSectionLayout = styled.div`
 const SectionTitleH2 = styled.h2`
     color: white;
     margin-bottom: 8px;
+    font-size: 22px;
 `;
 
 const DescriptionP = styled.p`

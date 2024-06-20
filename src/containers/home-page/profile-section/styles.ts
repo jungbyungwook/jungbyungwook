@@ -7,6 +7,7 @@ const ProfileSectionLayout = styled.div`
 const NameH1 = styled.h1`
     color: white;
     margin-bottom: 2px;
+    font-size: 32px;
 `;
 
 const PositionP = styled.p`
