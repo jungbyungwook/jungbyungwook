@@ -33,13 +33,13 @@ const HeaderContactButton = styled.button`
             transform: translateY(0);
         }
         25% {
-            transform: translateY(1.2px);
+            transform: translateY(2px);
         }
         50% {
-            transform: translateY(-1.2px);
+            transform: translateY(-2px);
         }
         75% {
-            transform: translateY(1.2px);
+            transform: translateY(2px);
         }
         100% {
             transform: translateY(0);
