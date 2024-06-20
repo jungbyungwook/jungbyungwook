@@ -1,21 +1,35 @@
 "use client";
 import React, { FC } from "react";
 import * as S from "./styles";
+import Image from "next/image";
+import links from "./constants";
 
 interface LinkSectionProps {}
 
 const LinkSection: FC<LinkSectionProps> = ({}) => {
+    const renderLinks = () => {
+        return links.map((element, index) => {
+            return (
+                <S.ServiceBox key={element.name}>
+                    <S.TimeP>{element.name}</S.TimeP>
+                    <S.ServiceA href={element.url}>
+                        {element.subUrl}
+                        <Image
+                            width={14}
+                            height={14}
+                            src={"link-arrow.svg"}
+                            alt={"link-arrow"}
+                        />
+                    </S.ServiceA>
+                </S.ServiceBox>
+            );
+        });
+    };
+
     return (
         <S.LinkSectionLayout>
             <S.SectionTitleH2>{"Links"}</S.SectionTitleH2>
-            <S.ServiceBox>
-                <S.TimeP>{"Github"}</S.TimeP>
-                <S.ServiceA>{"@jungbyungwook"}</S.ServiceA>
-            </S.ServiceBox>
-            <S.ServiceBox>
-                <S.TimeP>{"Resume"}</S.TimeP>
-                <S.ServiceA>{"my.surfit.io/w/706313602"}</S.ServiceA>
-            </S.ServiceBox>
+            {renderLinks()}
         </S.LinkSectionLayout>
     );
 };

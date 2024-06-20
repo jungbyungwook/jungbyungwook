@@ -30,6 +30,18 @@ const ServiceA = styled.a`
     text-decoration: none;
     margin-bottom: 12px;
     margin-left: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        margin-left: 2px;
+    }
 
     @media (max-width: 1023px) {
         margin-left: 2px;

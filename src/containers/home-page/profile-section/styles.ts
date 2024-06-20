@@ -12,6 +12,8 @@ const NameH1 = styled.h1`
 const PositionP = styled.p`
     color: gray;
     margin-left: 2px;
+    line-height: 22px;
+    white-space: pre-wrap;
 `;
 
 export { ProfileSectionLayout, NameH1, PositionP };

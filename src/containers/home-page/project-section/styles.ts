@@ -29,6 +29,16 @@ const ServiceA = styled.a`
     color: white;
     text-decoration: none;
     margin-bottom: 12px;
+
+    cursor: pointer;
+
+    img {
+        margin-left: 2px;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 const ServiceDescriptionBox = styled.div`
