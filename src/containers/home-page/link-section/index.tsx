@@ -10,15 +10,11 @@ const LinkSection: FC<LinkSectionProps> = ({}) => {
             <S.SectionTitleH2>{"Links"}</S.SectionTitleH2>
             <S.ServiceBox>
                 <S.TimeP>{"Github"}</S.TimeP>
-                <S.ServiceA>{"Frontend Developer - Groo"}</S.ServiceA>
+                <S.ServiceA>{"@jungbyungwook"}</S.ServiceA>
             </S.ServiceBox>
             <S.ServiceBox>
-                <S.TimeP>{"Github"}</S.TimeP>
-                <S.ServiceA>{"Frontend Developer - Groo"}</S.ServiceA>
-            </S.ServiceBox>
-            <S.ServiceBox>
-                <S.TimeP>{"Github"}</S.TimeP>
-                <S.ServiceA>{"Frontend Developer - Groo"}</S.ServiceA>
+                <S.TimeP>{"Resume"}</S.TimeP>
+                <S.ServiceA>{"my.surfit.io/w/706313602"}</S.ServiceA>
             </S.ServiceBox>
         </S.LinkSectionLayout>
     );

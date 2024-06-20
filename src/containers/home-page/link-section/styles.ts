@@ -13,6 +13,10 @@ const SectionTitleH2 = styled.h2`
 
 const ServiceBox = styled.div`
     display: flex;
+
+    @media (max-width: 1023px) {
+        flex-direction: column;
+    }
 `;
 
 const TimeP = styled.p`
@@ -22,11 +26,15 @@ const TimeP = styled.p`
 `;
 
 const ServiceA = styled.a`
-    flex: 1;
     color: white;
     text-decoration: none;
     margin-bottom: 12px;
     margin-left: 30px;
+
+    @media (max-width: 1023px) {
+        margin-left: 2px;
+        margin-top: 10px;
+    }
 `;
 
 export { LinkSectionLayout, SectionTitleH2, ServiceBox, TimeP, ServiceA };
