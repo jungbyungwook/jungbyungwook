@@ -22,10 +22,10 @@ const ProjectSection: FC<ProjectSectionProps> = ({}) => {
         },
         {
             time: "2021.12 ~ 2021.12",
-            name: "Backend METABOOK",
+            name: "METABOOK",
             description:
                 "회원들이 서로 자신의 메타버스(주로 게더타운) 공간을 공유할 수 있는 플랫폼 백엔드에서 DB 스키마 작성, 로그인, 회원가입, 댓글을 담당했습니다.",
-            technology: "Node.js. • Node.js. • mongoDB",
+            technology: "JavaScript • Node.js. • Node.js. • mongoDB",
         },
     ];
 

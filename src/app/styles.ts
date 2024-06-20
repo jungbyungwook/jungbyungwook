@@ -4,6 +4,7 @@ const HomeLayout = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 1);
 
     @media (max-width: 1023px) {
         padding-left: 16px;
